@@ -1,13 +1,17 @@
-.example-spacer {
-    flex: 1 1 auto;
-  }
-  
-  .mat-toolbar {
-    background-color: black;
-    color: white;
-  }
+.app-header button {
+  margin: 0 16px;
+}
 
-  .btn-login{
-    border: 1px solid white;
-    
-  }
+.app-header .spacer {
+  flex: 1 1 auto;
+}
+
+.app-header .mat-toolbar {
+  background-color: black;
+  color: white;
+  padding: 0 256px;
+}
+
+.app-header .mat-mdc-outlined-button:not(:disabled) {
+  border-color: white;
+}
