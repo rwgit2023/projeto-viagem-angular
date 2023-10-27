@@ -1,0 +1,34 @@
+.depoimento {
+    max-width: 320px;
+    background-color: #FEF7FF;
+    border-radius: 12px;
+    border:  none;
+
+
+}
+.depoimento img{
+
+    max-width: 56px;
+    max-height: 56px;
+    margin-top: 16px;
+
+}
+
+
+.depoimento ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+.depoimento li {
+    
+    
+}
+
+
+
+
+
+
+
