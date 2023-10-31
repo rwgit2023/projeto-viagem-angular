@@ -2,15 +2,20 @@
     max-width: 320px;
     background-color: #FEF7FF;
     border-radius: 12px;
-    border:  none;
+    border: none;
+    margin-bottom: 2%;
+    
+    
 
 
 }
-.depoimento img{
+
+.depoimento img {
 
     max-width: 56px;
     max-height: 56px;
     margin-top: 16px;
+
 
 }
 
@@ -21,14 +26,18 @@
 }
 
 
-.depoimento li {
-    
-    
+.depoimento ul li {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
 }
 
-
-
-
-
-
-
+.depoimento .cont {
+    display: flex;
+    align-items: start;
+    gap: 16px;
+    
+  }
