@@ -15,6 +15,7 @@ import { MatCardModule } from '@angular/material/card';
 import { ContainerComponent } from './shared/container/container.component';
 import { HomeComponent } from './pages/home/home.component';
 import { CardDepoimentoComponent } from './shared/card-depoimento/card-depoimento.component';
+import { FormBuscaComponent } from './shared/form-busca/form-busca.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { CardDepoimentoComponent } from './shared/card-depoimento/card-depoiment
     CardBuscaComponent,
     ContainerComponent,
     HomeComponent,
-    CardDepoimentoComponent
+    CardDepoimentoComponent,
+    FormBuscaComponent
   ],
   imports: [
     BrowserModule,
