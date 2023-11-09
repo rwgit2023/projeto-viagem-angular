@@ -16,5 +16,47 @@
             </mat-chip-listbox>
         </div>
 
+        <div class="flex-container">
+
+            <mat-form-field class="input-container" appearance="outline">
+                <mat-label>Origem</mat-label>
+                <!-- matPrefix serve para colocar icones no inicio de um input (angular material)-->
+                <mat-icon matPrefix>flight_takeoff</mat-icon>
+                <input matInput placeholder="Origem">
+                <!-- matSuffix serve para colocar icones no final de um input (angular material)-->
+                <mat-icon matSuffix>search</mat-icon>
+            </mat-form-field>
+            <button mat-icon-button>
+                <mat-icon>sync_alt</mat-icon>
+            </button>
+
+            <mat-form-field class="input-container" appearance="outline">
+                <mat-label>Destino</mat-label>
+                <!-- matPrefix serve para colocar icones no inicio de um input (angular material)-->
+                <mat-icon matPrefix>flight_land</mat-icon>
+                <input matInput placeholder="Origem">
+                <!-- matSuffix serve para colocar icones no final de um input (angular material)-->
+                <mat-icon matSuffix>search</mat-icon>
+            </mat-form-field>
+
+            <mat-form-field>
+                <mat-label>Choose a date</mat-label>
+                <input matInput [matDatepicker]="picker">
+                <mat-hint>MM/DD/YYYY</mat-hint>
+                <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+              </mat-form-field>
+
+
+              
+
+
+
+
+
+
+
+        </div>
+
     </form>
 </app-card>
