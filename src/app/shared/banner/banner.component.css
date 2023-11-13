@@ -2,7 +2,8 @@ figure{
     margin: 0;
 }
 
-.banner img{
+figure img{
     max-width: 100%;
+    width: 100%;
     
 }
