@@ -1,13 +1,13 @@
 .modal {
-    border: 1px solid #1D1B20;
-    max-width: 100%;
-    border-radius: 16px;
-    display: flex;
-    flex-direction: column;
-    /* padding: 32px; */
+
     width: Fixed (584px);
-    height: 484px;
-    
+    height: (384px);
+    top: -291px;
+    left: 1542px;
+    padding: 32px;
+    border-radius: 16px;
+    border: 1px;
+    gap: 24px;
 
 }
 
@@ -17,10 +17,10 @@
     padding: 12px;
 }
 
-.selecao-idade {
+.modal .selecao-idade {
     display: flex;
     justify-content: space-between;
-    width:  520px;
+    width: 520px;
     height: 108px;
     gap: 24px
 }
@@ -49,6 +49,79 @@
     padding: 0 12px;
 }
 
+.modal-actions {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+.modal-actions button {
+    margin: 0 8px;
+    width: 100%;
+
+}
+
+
+.modal .selecao-idade button {
+
+    border-radius: 50%;
+    border: none;
+    padding: 7px;
+}
+
+
+/* .modal .selecao-categoria { */
+/* width: 350px; */
+/* height: 154px; */
+/* gap: 8px; */
+/* overflow: hidden; */
+/* display: flex; */
+/*  */
+/* } */
+/*  */
+/* .modal .selecao-categoria .escolha { */
+/* background-color: yellow; */
+/*  */
+/* display: flex; */
+/* justify-content: space-between; */
+/* width: 350px; */
+/* height: 36px; */
+/* gap: 8px; */
+/* align-items: center; */
+/* overflow: hidden; */
+/* font-size: 16px; */
+/*  */
+/* } */
+/*  */
+/* .modal .selecao-categoria .escolha .executiva { */
+/* display: flex; */
+/* width: 109px; */
+/* height: 32px; */
+/* padding: 6px, 12px, 6px, 4px; */
+/* gap: 8px; */
+/* align-items: center; */
+/* text-align: start; */
+/* margin-bottom: 10px; */
+/*  */
+/* } */
+/*  */
+/* .modal .selecao-categoria .escolha .economica { */
+/* display: flex; */
+/* width: 118px; */
+/* height: 32px; */
+/* padding: 6px, 12px, 6px, 4px; */
+/* gap: 8px; */
+/* align-items: center; */
+/*  */
+/*  */
+/* } */
+/*  */
+/* .modal .selecao-categoria .escolha .example-button-row{ */
+/* background-color: green; */
+/* font-size: 30px; */
+/* } */
+
 
 .selecao-categoria {
     margin-top: 32px;
@@ -65,29 +138,4 @@
 .modal-actions button {
     margin: 0 8px;
     width: 100%;
-
 }
-
-
-.modal .selecao-idade button{
-    
-    border-radius: 50%;
-    border: none;
-    padding: 7px;
-}
-
-
-.selecao-categoria{
-    width: 235px;
-    display: flex;
-    height: 64px;
-    gap: 8px;
-    background-color: red;
-}
-
-
-
-
-
-
-
